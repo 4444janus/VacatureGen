@@ -1,12 +1,13 @@
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
+import accelerate
 
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 model_name = 'Rijgersberg/GEITje-7B-chat-v2'
 model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16,
-                                             low_cpu_mem_usage=True, use_flash_attention_2=True,
+                                             low_cpu_mem_usage=True, use_flash_attention_2=False,
                                              device_map=device)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 

@@ -1,22 +1,21 @@
 import streamlit as st
 from transformers import AutoModelWithLMHead, AutoTokenizer
+import torch
 
-# Load the model and tokenizer
-# model_name = "Rijgersberg/GEITje-7B-chat-v2"  # Specify the name of your language model here
-# tokenizer = AutoTokenizer.from_pretrained(model_name)
-# model = AutoModelWithLMHead.from_pretrained(model_name)
+#Load the model and tokenizer
+model_name = "Rijgersberg/GEITje-7B-chat-v2"  # Specify the name of your language model here
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelWithLMHead.from_pretrained(model_name)
 
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
-# from transformers import AutoModelForCausalLM, AutoTokenizer
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-
-# device = 'cuda' if torch.cuda.is_available() else 'cpu'
-
-# model_name = 'Rijgersberg/GEITje-7B-chat-v2'
-# model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16,
-#                                              low_cpu_mem_usage=True, use_flash_attention_2=True,
-#                                              device_map=device)
-# tokenizer = AutoTokenizer.from_pretrained(model_name)
+model_name = 'Rijgersberg/GEITje-7B-chat-v2'
+model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16,
+                                             low_cpu_mem_usage=True, use_flash_attention_2=False,
+                                             device_map=device)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 
 def generate_text(input_text, style_text):

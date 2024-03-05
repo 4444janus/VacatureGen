@@ -1,6 +1,32 @@
 import streamlit
 from tqdm import tqdm, trange
 import pyinputplus as inp
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+#AI stuff
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+model_name = 'Rijgersberg/GEITje-7B-chat-v2'
+model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16,
+                                             low_cpu_mem_usage=True, use_flash_attention_2=False,
+                                             device_map=device)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+def generate(prompt, temperature=0.2, top_k=50, max_new_tokens=1_000):
+    conversation = [
+    {
+        'role': 'user',
+        'content': prompt
+    }
+    ]
+
+    tokenized = tokenizer.apply_chat_template(conversation, add_generation_prompt=True,
+                                              return_tensors='pt').to(device)
+    outputs = model.generate(tokenized, do_sample=True, temperature=temperature,
+                             top_k=top_k, max_new_tokens=max_new_tokens)
+
+    return tokenizer.decode(outputs[0], skip_special_tokens=True)
+
 
 #constanten
 bedrijf = "Vrije Universiteit Amsterdam"
@@ -33,13 +59,10 @@ eigenaar_functie = inp.inputStr(prompt="Wat is de functie van de functieeigenaar
 eigenaar_telefoon = inp.inputStr(prompt="Wat is het telefoonnummer van de functieeigenaar? ")
 eigenaar_email = inp.inputStr(prompt="Wat is het mailadres van de functieeigenaar? ")
 
-def prompt_to_text(prompt):
-    return prompt
-
 # (Gen) Intro
 prompt_intro = f"Schrijf een opvallende en uitnodigende introductie van 1 alinea voor een vacature van een {functienaam} bij {bedrijf}."
 
-intro = prompt_to_text(prompt_intro)
+intro = generate(prompt_intro)
 
 # (Vast) Data
 data = f"""
@@ -55,7 +78,7 @@ Maximale salarisschaal: €{salaris_maximum} (Schaal {salaris_maximum_schaal}) \
 
 # (Gen) Functieomschrijving
 prompt_omschrijving = f"Schrijf in 1 alinea een nette en duidelijke functiebeschrijving voor een {functienaam} bij de afdeling {afdeling} van de VU. Noem het feit dat er 30.000 studenten en 5.000 medewerkers van het werk afhangen."
-omschrijving = prompt_to_text(prompt_omschrijving)
+omschrijving = generate(prompt_omschrijving)
 
 # (Vast) Taken
 taken = " " + taken
@@ -110,7 +133,7 @@ Over de VU \n
 Bijdragen aan een betere wereld door onderscheidend onderwijs en grensverleggend onderzoek, dat is de ambitie van de VU. Een universiteit waar persoonlijke vorming én maatschappelijke betrokkenheid centraal staan. Waar we vanuit verschillende disciplines en achtergronden samenwerken aan innovaties en nieuwe inzichten. Ons onderzoek beslaat het hele spectrum: van alfa, gamma en bèta tot leven en medische wetenschappen. \n \n
 Aan de VU studeren ruim 30.000 studenten en werken meer dan 5.500 medewerkers. De uitstekend bereikbare VU-campus is gevestigd in het hart van de Amsterdamse Zuidas, een inspirerende omgeving voor onderwijs en onderzoek. \n \n
 """
-#over = prompt_to_text(prompt_over)
+over = generate(prompt_over)
 
 # Waarden
 # Keuze: standaard riedeltje kopieren of laten genereren
@@ -119,17 +142,17 @@ waarden = """
 Diversiteit \n
 Diversiteit is een kernwaarde van de VU. Wij staan voor een inclusieve gemeenschap en geloven dat diversiteit en internationalisering bijdragen aan de kwaliteit van onderwijs en onderzoek. We zijn dan ook voortdurend op zoek naar mensen die door hun achtergrond en ervaring bijdragen aan de diversiteit van onze campus. \n \n
 """
-#waarden = prompt_to_text(prompt_waarden)
+waarden = generate(prompt_waarden)
 
 # (Gen) Dienst
 prompt_dienst = f"Beschrijf binnen twee alinea's wat de dienst {dienst} doet bij {bedrijf}"
 
-dienst = prompt_to_text(prompt_dienst)
+dienst = generate(prompt_dienst)
 
 # (Gen) Afdeling
 prompt_afdeling = f"Beschrijf binnen 1 alinea wat de afdeling {afdeling} binnen {dienst} doet."
 
-afdeling = prompt_to_text(prompt_afdeling)
+afdeling = generate(prompt_afdeling)
 
 # Vragen
 vragen = f"""
