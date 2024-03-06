@@ -1,0 +1,95 @@
+<|user|>
+Schrijf een opvallende en uitnodigende introductie van 1 alinea voor een vacature van een Senior Microsoft Systems Engineer 
+bij Vrije Universiteit Amsterdam.
+<|assistant|>
+Ben jij een ervaren Microsoft Systems Engineer die op zoek is naar een uitdagende en vervullende baan? Zoek dan niet verder! Vrije Universiteit Amsterdam is op zoek naar een Senior Microsoft Systems Engineer om ons team te versterken. In deze functie ben je verantwoordelijk voor het ontwerpen, implementeren en onderhouden van ons IT-infrastructuur. Je zult werken met een breed scala aan technologieën, waaronder Windows Server, SQL Server en Exchange Server. Je zult ook samenwerken met andere IT-professionals om ervoor te zorgen dat onze IT-infrastructuur soepel draait. Als je op zoek bent naar een uitdagende en vervullende baan, dan is dit de perfecte kans voor jou. Solliciteer vandaag nog en begin je nieuwe avontuur bij Vrije Universiteit Amsterdam!
+Alle feiten op een rijtje:
+
+Functiegebied: ICT
+Opleidingsniveau: Master
+
+VU-eenheid: ICT
+
+Contracttype: Tijdelijk
+
+FTE: 0.8-1
+
+Minimale salarisschaal: €500 (Schaal schaal 0)
+
+Maximale salarisschaal: €10000 (Schaal 1)
+
+<|user|>
+Schrijf in 1 alinea een nette en duidelijke functiebeschrijving voor een Senior Microsoft Systems Engineer bij de afdeling Basic Infrastructure van de VU. Noem het feit dat er 30.000 studenten en 5.000 medewerkers van het werk afhangen.
+<|assistant|>
+VU zoekt een Senior Microsoft Systems Engineer om het team van de afdeling Basic Infrastructure te versterken. De Senior Microsoft Systems Engineer zal verantwoordelijk zijn voor het ontwerpen, implementeren en onderhouden van de IT-infrastructuur 
+van de VU. De Senior Microsoft Systems Engineer zal werken met een team van 10 IT-professionals en zal verantwoordelijk zijn voor het beheren van de IT-infrastructuur van de VU, inclusief het beheren van de Microsoft-omgeving. De Senior Microsoft Systems Engineer zal verantwoordelijk zijn voor het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van 
+de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de 
+Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, 
+inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief het beheren van de Microsoft-omgeving van de VU, inclusief hetJouw taken hierbij zijn:
+    ●  Het bijhouden van Microsoft
+    ●  het bijhouden van Systems
+    ●  het bijhouden van Engineering
+
+
+Functie-eisen:
+    ●  Moet vertrouwelijke documenten kunnen lekken
+    ●  moet minstens drie jaar bezig zijn met elke taak
+    ●  moet hebben gestudeerd
+
+
+
+Wat bieden wij?
+
+Een uitdagende functie bij een maatschappelijk betrokken organisatie. Het salaris bedraagt afhankelijk van opleiding en ervaring op voltijdse basis minimaal €500 (Schaal schaal 0) en maximaal €500 (Schaal schaal 0) bruto per maand.
+
+De functie is ingedeeld volgens UFO-profiel(en):  MicrosoftMan I, of MicrosoftMan II en staat open voor ten minste 0.8 fte. 
+
+
+
+De arbeidsovereenkomst wordt in eerste instantie aangegaan voor een periode van 1 jaar.
+
+Daarnaast beschikt de VU over aantrekkelijke secundaire arbeidsvoorwaarden en regelingen die een goede combinatie van werk en privé mogelijk maken, zoals:
+
+● maximaal 41 vakantiedagen bij een voltijds dienstverband,
+
+● 8% vakantietoeslag en 8,3% eindejaarsuitkering, goede en voordelige sportfaciliteiten,
+
+● ruimte voor persoonlijke ontwikkeling,
+
+● hybride werken maakt een goede werk/privébalans mogelijk
+
+
+<|user|>
+Beschrijf kort hoe de VU de wereld verbetert
+<|assistant|>
+De VU is een onderzoeksuniversiteit die zich inzet voor het verbeteren van de wereld door middel van onderzoek, onderwijs en samenwerking. De VU heeft een sterke focus op het verbeteren van de gezondheidszorg, het milieu en de samenleving, en werkt samen met andere universiteiten en organisaties om innovatieve oplossingen te ontwikkelen voor wereldwijde uitdagingen.<|user|>
+Beschrijf binnen 1 alinea de waarde van inclusie en diversiteit binnen de VU en noem dat het kernwaardes van de VU zijn     
+<|assistant|>
+Inclusie en diversiteit zijn kernwaarden van de VU, wat betekent dat iedereen welkom is om deel uit te maken van de gemeenschap en hun unieke perspectieven en ervaringen bijdragen aan de VU. Deze waarden zijn belangrijk voor het creëren van een inclusieve en diverse omgeving waarin iedereen zich gewaardeerd en gerespecteerd voelt. Inclusie en diversiteit bieden een platform voor studenten, medewerkers en alumni om hun ervaringen te delen en te leren van elkaars perspectieven. Het helpt ook om een gevoel van gemeenschap en verbondenheid te creëren, wat essentieel is voor het bevorderen van academische en professionele groei.<|user|>
+Beschrijf binnen twee alinea's wat de dienst ICT doet bij Vrije Universiteit Amsterdam
+<|assistant|>
+De dienst ICT van de Vrije Universiteit Amsterdam (VU) biedt een breed scala aan IT-diensten aan de universiteit en haar studenten, waaronder netwerkbeheer, systeembeheer, cloud computing, webhosting en meer. De dienst ICT biedt ook ondersteuning voor de ontwikkeling en implementatie van nieuwe technologieën, zoals virtualisatie, cloud computing en kunstmatige intelligentie. De dienst ICT biedt ook beveiligingsdiensten om de gegevens en systemen van de universiteit te beschermen. Daarnaast biedt de dienst ICT ondersteuning voor onderzoeksprojecten en helpt bij de ontwikkeling van nieuwe technologieën.
+
+De dienst ICT van de VU biedt ook ondersteuning voor de ontwikkeling en implementatie van nieuwe technologieën, zoals virtualisatie, cloud computing en kunstmatige intelligentie. De dienst ICT biedt ook beveiligingsdiensten om de gegevens en systemen van de universiteit te beschermen. Daarnaast biedt de dienst ICT ondersteuning voor onderzoeksprojecten en helpt bij de ontwikkeling van nieuwe technologieën.<|user|>
+Beschrijf binnen 1 alinea wat de afdeling Basic Infrastructure binnen <|user|>
+Beschrijf binnen twee alinea's wat de dienst ICT doet bij Vrije Universiteit Amsterdam
+<|assistant|>
+De dienst ICT van de Vrije Universiteit Amsterdam (VU) biedt een breed scala aan IT-diensten aan de universiteit en haar studenten, waaronder netwerkbeheer, systeembeheer, cloud computing, webhosting en meer. De dienst ICT biedt ook ondersteuning voor de ontwikkeling en implementatie van nieuwe technologieën, zoals virtualisatie, cloud computing en kunstmatige intelligentie. De dienst ICT biedt ook beveiligingsdiensten om de gegevens en systemen van de universiteit te beschermen. Daarnaast biedt de dienst ICT ondersteuning voor onderzoeksprojecten en helpt bij de ontwikkeling van nieuwe technologieën.
+
+De dienst ICT van de VU biedt ook ondersteuning voor de ontwikkeling en implementatie van nieuwe technologieën, zoals virtualisatie, cloud computing en kunstmatige intelligentie. De dienst ICT biedt ook beveiligingsdiensten om de gegevens en systemen van de universiteit te beschermen. Daarnaast biedt de dienst ICT ondersteuning voor onderzoeksprojecten en helpt bij de ontwikkeling van nieuwe technologieën. doet.
+<|assistant|>
+Decardinalisatie is een proces waarbij een gegevenstabel wordt omgezet in een nieuwe tabel met een andere sleutel. Het is een veelgebruikte techniek in de informatica en wordt vaak gebruikt om de prestaties van een database te verbeteren. Decardinalisatie is een proces waarbij een gegevenstabel wordt omgezet in een nieuwe tabel met een andere sleutel. Het is een veelgebruikte techniek in de informatica en wordt vaak gebruikt om de prestaties van een database te verbeteren. Het proces omvat het maken van een nieuwe tabel met een andere sleutel, het verwijderen van de oude sleutel en het toevoegen van een nieuwe sleutel aan de nieuwe tabel. Decardinalisatie kan worden gebruikt om de prestaties van een database te verbeteren door de hoeveelheid gegevens die moet worden opgehaald te verminderen. Het kan ook worden gebruikt om de gegevensintegriteit te verbeteren door redundantie te verminderen en de hoeveelheid gegevens die moet worden opgehaald te verminderen.
+Vragen
+
+Voor vragen over de vacature kun je contact opnemen met:
+
+Naam: Janus Janssen
+
+Functie: Professioneel leidinggevende
+
+Telefoonnummer: 0612345
+
+E-mail: Janus@dont@me.com
+
+
+Acquisitie naar aanleiding van deze advertentie wordt niet op prijs gesteld.
